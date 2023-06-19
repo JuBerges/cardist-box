@@ -1,10 +1,19 @@
 <div class="toolbar" role="banner">
-    <a routerLink="/">
+    <a routerLink="">
       <img width="400" alt="Angular Logo" src="../assets/images/logo-long-hand-white.svg"/>
     </a>
       <div class="spacer"></div>
-      <a aria-label="cardistry on YouTube" target="_blank" rel="noopener" href="https://www.youtube.com/results?search_query=cardistry" title="YouTube recherche cardistry">
-        <img width="48" src="../../assets/images/ace-hand-tr.svg" alt="logo de carte de poker pour représenter le menu">
+      <a routerLink="">
+        <img width={{tailleDesCartes}} src="../../assets/images/black-spade.svg" alt="logo de carte ace de coeur pour représenter le menu accueil" title="Accueil">
+      </a>
+      <a routerLink="tuto">
+        <img width={{tailleDesCartes}} src="../../assets/images/black-heart.svg" alt="logo de carte ace de coeur pour représenter le menu d'apprentissage" title="Apprendre">
+      </a>
+      <a routerLink="cards">
+        <img width={{tailleDesCartes}} src="../../assets/images/black-club.svg" alt="logo de carte ace de trêfle pour représenter le menu des cartes" title="Les cartes">
+      </a>
+      <a routerLink="history">
+        <img width={{tailleDesCartes}} src="../../assets/images/black-diamond.svg" alt="logo de carte ace de carreau pour représenter le menu histoire de la cardistry" title="Histoire">
       </a>
   </div>
   
