@@ -1,0 +1,28 @@
+span {
+    width: 10%;
+}
+.texte {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px, 10px, 30px, 10px;
+    padding: 10px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .texte {
+      font-size: 14px;
+      margin: 5px;
+      padding: 5px;
+    }
+  }
+
+  .image-transition {
+    position: relative;
+    transition: transform 0.5s ease;
+  }
+  
+  .image-transition:hover {
+    transform: translateY(-10px);
+  }
+
+  

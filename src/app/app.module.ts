@@ -8,7 +8,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { HistoryComponent } from './pages/history/history.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { TutoComponent } from './pages/tuto/tuto.component';
-import { CardsComponent } from './pages/cards/cards.component';
+import { DecksComponent } from './pages/decks/decks.component';
+import { CardComponent } from './components/card/card.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CardsComponent } from './pages/cards/cards.component';
     HistoryComponent,
     FooterComponent,
     TutoComponent,
-    CardsComponent
+    DecksComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
