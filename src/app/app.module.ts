@@ -9,7 +9,8 @@ import { HistoryComponent } from './pages/history/history.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { TutoComponent } from './pages/tuto/tuto.component';
 import { DecksComponent } from './pages/decks/decks.component';
-import { CardComponent } from './components/card/card.component';
+import { CardBackgroundComponent } from './components/card-background/card-background.component';
+import { CardTitleComponent } from './components/card-title/card-title.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CardComponent } from './components/card/card.component';
     FooterComponent,
     TutoComponent,
     DecksComponent,
-    CardComponent
+    CardBackgroundComponent,
+    CardTitleComponent
   ],
   imports: [
     BrowserModule,

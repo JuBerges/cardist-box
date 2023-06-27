@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  title: String = 'Cardist Box';
+  titre: string = 'Cardist Box';
   constructor() { }
 
   ngOnInit(): void {

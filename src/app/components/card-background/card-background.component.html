@@ -1,0 +1,5 @@
+<div class="card-background-container">
+    <div class="card-container">
+        <img *ngFor="let card of cards" [src]="'../../../assets/images/' + card.filename" [class]="'card ' + card.className">
+    </div>    
+</div>

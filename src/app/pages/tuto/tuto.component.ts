@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tuto.component.css']
 })
 export class TutoComponent implements OnInit {
-
+  titreTuto: string = "APPRENDRE LA CARDISTRY"
   constructor() { }
 
   ngOnInit(): void {

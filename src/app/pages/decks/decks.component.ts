@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./decks.component.css']
 })
 export class DecksComponent implements OnInit {
-
+  titreDeck:string = "LES DECKS"
   constructor() { }
 
   ngOnInit(): void {
